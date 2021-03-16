@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+h1 {
+  color: #ffffff;
+  font-weight: normal;
+  font-family: monospace;
+  font-size: 25px;
+  background-color: #1f1b24;
+}
+.container {
+  background-color: #1f1b24;
+  margin-top: 70px;
+  border-radius: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  position: relative;
+  overflow: hidden;
+  width: 768px;
+  max-width: 40%;
+  min-height: 200px;
+  margin-left: 30%;
+}
+input {
+  background-color: #ffffff;
+  border: none;
+  padding: 12px 15px;
+  margin: 8px 0;
+  width: 60%;
+  outline: none;
+}
+form {
+  background-color: #1f1b24;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* padding: 0 50px; */
+  height: 100%;
+  text-align: center;
+}
+.buttonSearch {
+  border-radius: 20px;
+  border: 1px solid #03dac5;
+  background-color: #03dac5;
+  color: #ffffff;
+
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px 30px;
+
+  transition: transform 80ms ease-in;
+  margin-top: 15px;
+}
+.buttonSearch:focus {
+  outline: none;
+}
+.buttonSearch:hover {
+  background-color: #bb86fc;
+  border-color: #1f1b24;
+}

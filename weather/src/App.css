@@ -1,0 +1,11 @@
+* {
+  background-color: #121212;
+}
+.App {
+  text-align: center;
+}
+p {
+  font-weight: lighter;
+  font-size: 15px;
+  font-family: monospace;
+}

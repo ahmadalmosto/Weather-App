@@ -1,0 +1,40 @@
+.card {
+  margin-left: 35%;
+  width: 20rem;
+  background-color: #1f1b24;
+  border-radius: 1.25rem;
+  color: #ffffff;
+  filter: drop-shadow(5px 5px 5px black);
+  height: (20rem * 1.4);
+  padding: 2.5rem;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.link {
+  color: #ffffff;
+}
+.delete {
+  background-color: #03dac5;
+  border: none;
+  color: #ffffff;
+  width: 30px;
+  height: 30px;
+  margin-bottom: 30px;
+  outline: none;
+}
+/* img{
+  margin-bottom: 0px;
+  height: 100px;
+  width: 90px;
+} */
+.cardnum {
+  color: #bb86fc;
+}
+.name {
+  display: flex;
+  flex-direction: row;
+  background-color: #1f1b24;
+}

@@ -1,0 +1,11 @@
+.chatButton {
+  border-radius: 20px;
+  border: 1px solid #03dac5;
+  background-color: #03dac5;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px 30px;
+  transition: transform 80ms ease-in;
+  margin-top: 15px;
+}
